@@ -2,22 +2,20 @@
 
 # Overview
 
-StealthAgent is an AI-driven pathfinding system implemented in Java that utilizes the A Search Algorithm* to navigate an agent through a dynamic environment. The agent's goal is to steal arbituary amount of gold pieces, attack the enemy's town hall, and safely return to the designated safe zone while avoiding obstacles and detection from multiple enemy agents.
+StealthAgent is an **AI-driven pathfinding system** implemented in **Java** that utilizes the A* Search Algorithm to navigate an agent through a **dynamic environment**. The agent's goal is to steal an arbituary amount of gold resources🏆, attack the enemy agents town hall 🏛️, and strategically safely return to the designated safe zone while avoiding obstacles and detection.
 
-# Features
+# Key Features
 
-<bold> A Search Algorithm Implementation*:<bold> Optimized pathfinding for navigating the game environment.
+- 🗺️ **Grid-Based Map Representation**: The environment is represented as a grid where the agent moves strategically to complete objectives while avoiding detection.
 
-Dynamic Environment Adaptation: The agent recalculates paths in response to changing obstacles and threats.
+- 🧠 **A* Search Algorithm**: The algorithm calculates the optimal path using the cost function:
 
-Stealth Mechanism: The agent avoids detection while moving towards objectives.
+      f(n) = g(n) + h(n)
 
-Multi-Objective System:
+      g(n): Cost from start node to the current node
 
-Steal Gold: Locate and collect gold from specified locations.
+      h(n): Estimated cost from the current node to the goal (heuristic)
 
-Attack Town Hall: Engage in strategic movement to execute an attack.
+- 💰 **Gold Collection & Attack Strategy**: The agent locates and collects gold while plotting an attack on the town hall.
 
-Return to Safe Zone: Ensure survival by reaching a designated safety point.
-
-Configurable Map System: Supports customizable map layouts with obstacles, enemy guards, and restricted zones.
+- 🏠 **Safe Zone Return**: Once objectives are complete, the agent must safely return to a predefined safe zone.
