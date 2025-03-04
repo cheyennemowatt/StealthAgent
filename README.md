@@ -1,12 +1,12 @@
 # Stealth Agent
 
-Overview
+# Overview
 
 StealthAgent is an AI-driven pathfinding system implemented in Java that utilizes the A Search Algorithm* to navigate an agent through a dynamic environment. The agent's goal is to steal arbituary amount of gold pieces, attack the enemy's town hall, and safely return to the designated safe zone while avoiding obstacles and detection from multiple enemy agents.
 
-Features
+# Features
 
-A Search Algorithm Implementation*: Optimized pathfinding for navigating the game environment.
+<bold> A Search Algorithm Implementation*:<bold> Optimized pathfinding for navigating the game environment.
 
 Dynamic Environment Adaptation: The agent recalculates paths in response to changing obstacles and threats.
 
